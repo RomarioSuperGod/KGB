@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KGB</title>
+
+</head>
+<body>
+
+<style>
+    *{
+        font-family:sans-serif;
+        font-size:16px;
+        margin:10px;
+    }
+    #form{
+        display: none;
+        background: light;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td, th {
+        border: 1px solid;
+    }
+</style>
+<div>
+<button id="setTraitor">Detect traitor</button>
+
+ <form action="" id="form">
+     <div id="traitorData">
+         <p>Enter traitor name:<input type="text" id="traitorName"></p>
+         <p id="wrongName"></p>
+         <p>Enter traitor adress:<input type="text" id="traitorAdress"></p>
+         <p id="wrongAdress"></p>
+     </div>
+     <button id="addTraiter">Add traiter</button>
+ </form>
+
+</div>
+
+<table id="table">
+    <thead>
+    <th>Prime Govno</th>
+    <th>Traitor name</th>
+    <th>Traitor adress</th>
+    <th>Mersy</th>
+
+    </thead>
+</table>
+
+
+<script src="KGB.js"></script>
+</body>
+</html>
